@@ -22,4 +22,4 @@ jobs:
 
       - name: Build with Maven
         working-directory: devops-app
-        run: mvn clean package
+        run: mvn -U -B clean package
