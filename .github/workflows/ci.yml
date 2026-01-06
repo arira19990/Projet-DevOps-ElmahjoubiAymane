@@ -21,4 +21,5 @@ jobs:
           java-version: '17'
 
       - name: Build with Maven
+        working-directory: devops-app
         run: mvn clean package
